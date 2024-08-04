@@ -17,7 +17,6 @@ export const Imagem = styled.img`
 export const Texto = styled.h1`
   font-family: "Russo One", sans-serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 56px;
   color: #2A2A2A;
   bottom: 0;
