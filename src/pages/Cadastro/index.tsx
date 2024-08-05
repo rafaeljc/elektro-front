@@ -1,10 +1,14 @@
+import { useNavigate } from "react-router-dom";
 import BarraComNavegacao from "../../components/BarraComNavegacao";
 import BotaoEscuro from "../../components/BotaoEscuro";
 import InputFormulario from "../../components/InputFormulario";
 import Oauth from "../../components/Oauth";
 import { Container, Conteudo, Formulario } from "./style";
 
+// TODO: implementar envio dos dados do formulário
 function Cadastro() {
+  const navigate = useNavigate();
+
   return (
     <Container>
       <BarraComNavegacao titulo="Cadastrar-se" />
@@ -17,7 +21,8 @@ function Cadastro() {
           <InputFormulario type="text" titulo="E-mail" placeholder="Digite seu e-mail" />
           <InputFormulario type="password" titulo="Senha" placeholder="Digite sua senha" />
           <InputFormulario type="password" titulo="Confirme sua senha" placeholder="Confirme sua senha" />
-          <BotaoEscuro type="submit" texto="Cadastrar-se!" width="188px" />
+          <BotaoEscuro onClick={() => navigate("/cadastro/sucesso")} 
+              type="button" texto="Cadastrar-se!" width="188px" />
         </Formulario>
       </Conteudo>
     </Container>
