@@ -36,13 +36,13 @@ export const Informacoes = styled.div`
 export const Nome = styled.h3`
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 13.24px;
+  font-size: 0.8275rem;
   color: #2B2B2B;
 `;
 
 export const Preco = styled.p`
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 15.13px;
+  font-size: 0.9456rem;
   color: #2B2B2B;
 `;

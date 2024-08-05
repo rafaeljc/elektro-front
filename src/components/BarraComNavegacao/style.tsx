@@ -18,7 +18,7 @@ export const Titulo = styled.h1`
   padding-right: 56px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #2B2B2B;
   position: absolute;
   text-align: center;  

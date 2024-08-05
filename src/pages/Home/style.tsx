@@ -29,7 +29,7 @@ export const LogoPequeno = styled.img`
 export const Titulo = styled.h1`
   font-family: "Russo One", sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #FF8F0E;
 `;
 
@@ -42,7 +42,7 @@ export const Carousel = styled.div`
 export const SecaoTitulo = styled.h2`
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   color: #000;
 `;
 
@@ -69,7 +69,7 @@ export const CategoriasItem = styled.div`
   align-items: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #2B2B2B;
 `;
 
@@ -80,7 +80,7 @@ export const Footer = styled.footer`
   margin-top: 42px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   color: #2B2B2B;
   padding-top: 45px;
   display: flex;
