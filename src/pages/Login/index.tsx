@@ -7,8 +7,12 @@ import IconeCadeado from "../../assets/icone-cadeado.png";
 import IconeOlho from "../../assets/icone-olho.png";
 import BotaoEscuro from "../../components/BotaoEscuro";
 import Oauth from "../../components/Oauth";
+import { useNavigate } from "react-router-dom";
 
+// TODO: implementar envio dos dados de login
 function Login() {
+  const navigate = useNavigate();
+
   return (
     <Container>
       <BarraComNavegacao titulo="Entrar" />
@@ -25,7 +29,8 @@ function Login() {
             <IconeDireita src={IconeOlho} alt="Ícone olho" />
           </ContainerInput>         
           <RecuperarSenha href="#">Esqueci minha senha</RecuperarSenha>
-          <BotaoEscuro type="submit" texto="Entrar" width="188px" />
+          <BotaoEscuro onClick={() => navigate("/home")} 
+              type="button" texto="Entrar" width="188px" />
         </Formulario>
         <Oauth barra="topo" />
         <Cadastro href="#">Não possui cadastro? Cadastre-se!</Cadastro>
