@@ -3,6 +3,7 @@ import PaginaInicial from "../pages/PaginaInicial";
 import Home from "../pages/Home";
 import Perfil from "../pages/Perfil";
 import Login from "../pages/Login";
+import Cadastro from "../pages/Cadastro";
 
 function Rotas() {
   return (
@@ -11,6 +12,7 @@ function Rotas() {
       <Route path="/home" element={<Home />} />
       <Route path="/perfil" element={<Perfil />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/cadastro" element={<Cadastro />} />
       // TODO: rota para página não encontrada (404)
     </Routes>
   );
