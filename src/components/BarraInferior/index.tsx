@@ -19,7 +19,7 @@ function BarraInferior() {
         <img src={IconeAvisos} alt="Ícone avisos"/>
         <Texto>Avisos</Texto>
       </Opcao>
-      <Opcao to="">
+      <Opcao to="/perfil">
         <img src={IconePerfil} alt="Ícone perfil"/>
         <Texto>Perfil</Texto>
       </Opcao>
