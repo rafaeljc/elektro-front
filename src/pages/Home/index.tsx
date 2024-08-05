@@ -33,6 +33,8 @@ import IconeTiktok from "../../assets/icone-tiktok.png";
 import IconeTwitter from "../../assets/icone-twitter.png";
 import IconeLinkedin from "../../assets/icone-linkedin.png";
 
+// TODO:
+// - implementar carousel
 function Home() {
   const paraVoce = {
     titulo: "Para você",

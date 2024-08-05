@@ -3,6 +3,9 @@ import MenuHamburger from "../../assets/icone-menu-hamburger.png";
 import Lupa from "../../assets/icone-lupa.png";
 import Carrinho from "../../assets/icone-carrinho.png";
 
+// TODO:
+// - implementar menu hamburguer
+// - implementar busca
 function BarraSuperior() {
   return (
     <Container>
