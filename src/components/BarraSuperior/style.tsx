@@ -15,7 +15,8 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 12px
+  gap: 12px;
+  z-index: 999999;
 `;
 
 export const Busca = styled.form`
