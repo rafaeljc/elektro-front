@@ -22,14 +22,14 @@ export const Conteudo = styled.article`
 export const Titulo = styled.h1`
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #2B2B2B;
 `;
 
 export const Texto = styled.p`
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   color: #2B2B2B;
   text-align: center;
 `;

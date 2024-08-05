@@ -15,6 +15,6 @@ export const Opcao = styled.div`
   border-radius: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #2B2B2B;
 `;

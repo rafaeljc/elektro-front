@@ -22,7 +22,7 @@ export const Input = styled.input<Opcoes>`
   border-bottom: 2px solid #B9B9B9;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   color: #B9B9B9;
   padding-left: ${(props: Opcoes) => (props.padding_left ? props.padding_left : "none")};
   padding-right: ${(props: Opcoes) => (props.padding_right ? props.padding_right : "none")};
@@ -31,6 +31,6 @@ export const Input = styled.input<Opcoes>`
 export const Titulo = styled.h2`
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   color: #2B2B2B;
 `;

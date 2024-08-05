@@ -9,7 +9,9 @@ import BotaoEscuro from "../../components/BotaoEscuro";
 import Oauth from "../../components/Oauth";
 import { useNavigate } from "react-router-dom";
 
-// TODO: implementar envio dos dados de login
+// TODO:
+// - implementar envio dos dados de login
+// - implementar botão de exibir/esconder senha
 function Login() {
   const navigate = useNavigate();
 

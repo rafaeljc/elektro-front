@@ -5,7 +5,8 @@ import InputFormulario from "../../components/InputFormulario";
 import Oauth from "../../components/Oauth";
 import { Container, Conteudo, Formulario } from "./style";
 
-// TODO: implementar envio dos dados do formulário
+// TODO:
+// - implementar envio dos dados do formulário
 function Cadastro() {
   const navigate = useNavigate();
 

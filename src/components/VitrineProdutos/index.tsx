@@ -6,6 +6,8 @@ interface VitrineProdutos {
   listaProdutos: CardProduto[];
 }
 
+// TODO:
+// implementar scroll horizontal
 function VitrineProdutos(props: VitrineProdutos) {
   return (
     <Vitrine>

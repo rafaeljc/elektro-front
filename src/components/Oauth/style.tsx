@@ -12,7 +12,7 @@ export const Container = styled.div<Opcao>`
   align-items: ${(props: Opcao) => (props.barra == "topo" ? "flex-start" : "flex-end")};
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #2B2B2B;
 `;
 

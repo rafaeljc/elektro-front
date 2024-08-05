@@ -6,6 +6,8 @@ import Login from "../pages/Login";
 import Cadastro from "../pages/Cadastro";
 import Parabens from "../pages/Parabens";
 
+// TODO: 
+// - rota para página não encontrada (404)
 function Rotas() {
   return (
     <Routes>
@@ -14,8 +16,7 @@ function Rotas() {
       <Route path="/perfil" element={<Perfil />} />
       <Route path="/login" element={<Login />} />
       <Route path="/cadastro" element={<Cadastro />} />
-      <Route path="/cadastro/sucesso" element={<Parabens />} />
-      // TODO: rota para página não encontrada (404)
+      <Route path="/cadastro/sucesso" element={<Parabens />} />      
     </Routes>
   );
 }

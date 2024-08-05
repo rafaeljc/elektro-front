@@ -57,7 +57,7 @@ export const RecuperarSenha = styled(Link)`
   text-align: right;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #000;
 `;
 
@@ -65,6 +65,6 @@ export const Cadastro = styled(Link)`
   margin-top: 40px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #0271A0;
-`
+`;
