@@ -25,6 +25,7 @@ export const Opcao = styled(Link)`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  text-decoration: none;
 `;
 
 export const Texto = styled.p`

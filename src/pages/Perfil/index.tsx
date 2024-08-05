@@ -11,9 +11,12 @@ import IconeCupons from "../../assets/perfil-cupons.png";
 import IconeChats from "../../assets/perfil-chats.png";
 import BarraInferior from "../../components/BarraInferior";
 import BotaoEscuro from "../../components/BotaoEscuro";
+import { useNavigate } from "react-router-dom";
 
 
 function Perfil() {
+  const navigate = useNavigate();
+
   return (
     <Container>
       <Topo>
@@ -22,8 +25,8 @@ function Perfil() {
       </Topo>
       <ImagemPerfil src={ImagemUsuario} alt="Imagem do usuário" />
       <Botoes>
-        <BotaoEscuro texto="Entrar" />
-        <BotaoEscuro texto="Cadastrar" />
+        <BotaoEscuro onClick={() => navigate("/login")} texto="Entrar" />
+        <BotaoEscuro onClick={() => navigate("/cadastro")} texto="Cadastrar" />
       </Botoes>
       <Opcoes>
         <OpcaoPerfil icone={IconeDados} texto={"Meus dados"} />
