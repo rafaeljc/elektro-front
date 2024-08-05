@@ -28,12 +28,12 @@ function Login() {
             <IconeEsquerda src={IconeCadeado} alt="Ícone cadeado" />
             <IconeDireita src={IconeOlho} alt="Ícone olho" />
           </ContainerInput>         
-          <RecuperarSenha href="#">Esqueci minha senha</RecuperarSenha>
+          <RecuperarSenha to="#">Esqueci minha senha</RecuperarSenha>
           <BotaoEscuro onClick={() => navigate("/home")} 
               type="button" texto="Entrar" width="188px" />
         </Formulario>
         <Oauth barra="topo" />
-        <Cadastro href="/cadastro">Não possui cadastro? Cadastre-se!</Cadastro>
+        <Cadastro to="/cadastro">Não possui cadastro? Cadastre-se!</Cadastro>
       </Conteudo>
     </Container>
   );

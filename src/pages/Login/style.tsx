@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Container = styled.div`
   width: 100%;
@@ -49,7 +50,7 @@ export const IconeDireita = styled.img`
   position: absolute;
 `;
 
-export const RecuperarSenha = styled.a`
+export const RecuperarSenha = styled(Link)`
   margin-top: 2px;
   margin-bottom: 20px;
   width: 100%;
@@ -60,7 +61,7 @@ export const RecuperarSenha = styled.a`
   color: #000;
 `;
 
-export const Cadastro = styled.a`
+export const Cadastro = styled(Link)`
   margin-top: 40px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
