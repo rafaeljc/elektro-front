@@ -33,7 +33,7 @@ function Login() {
               type="button" texto="Entrar" width="188px" />
         </Formulario>
         <Oauth barra="topo" />
-        <Cadastro href="#">Não possui cadastro? Cadastre-se!</Cadastro>
+        <Cadastro href="/cadastro">Não possui cadastro? Cadastre-se!</Cadastro>
       </Conteudo>
     </Container>
   );
