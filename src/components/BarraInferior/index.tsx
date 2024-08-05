@@ -7,15 +7,15 @@ import IconePerfil from "../../assets/icone-perfil.png";
 function BarraInferior() {
   return (
     <Menu>
-      <Opcao to="/">
+      <Opcao to="/home">
         <img src={IconeHome} alt="Ícone home"/>
         <Texto>Home</Texto>
       </Opcao>
-      <Opcao to="">
+      <Opcao to="#">
         <img src={IconeChat} alt="Ícone chat"/>
         <Texto>Chat</Texto>
       </Opcao>
-      <Opcao to="">
+      <Opcao to="#">
         <img src={IconeAvisos} alt="Ícone avisos"/>
         <Texto>Avisos</Texto>
       </Opcao>
